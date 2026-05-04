@@ -1,0 +1,20 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #ffffff; }
+.sidebar { height: 100vh; width: 260px; position: fixed; background: #eeeeee; color: #000000; padding: 20px; }
+.sidebar a { color: #4e4e4e; text-decoration: none; display: block; padding: 10px; border-radius: 5px; }
+.sidebar a:hover, .sidebar a.active { background: #eeeeee; color: #0dcaf0; }
+.main-content { margin-left: 260px; padding: 40px; width: calc(100% - 260px); color: #000000;}
+.login-card { max-width: 400px; margin: 100px auto; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+.subject-card { border-left: 5px solid #0dcaf0; transition: transform 0.2s; }
+.subject-card:hover { transform: translateY(-5px); }
+footer { font-size: 0.8rem; color: #687179; border-top: 1px solid #d9dee2; margin-top: 50px; padding-top: 10px; }
+body {
+
+background-image: url('https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/38df9671-1633-4828-b705-5972dadf6a57/OBMC+Quadrangle+2.jpg'); 
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-color: #f4f7f6;   
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*Background and the rest of the body
